@@ -172,22 +172,22 @@ $("document").ready(function(){
     })
 
     $(".content .special .l7 ul:nth-child(2)").click(function(){
-        $(".content .special .l7 ul:nth-child(2) li img").attr("src", "images/l7(1).png")
+        $(".content .special .l7 ul:nth-child(2) li img").attr("src", "images/L7(1).png")
     })
     $(".content .special .l7 ul:nth-child(3) li:nth-child(1)").click(function(){
         let i = $(this).index()
         $(".content .special .l7 ul:nth-child(3) li").removeClass("on").eq(i).addClass("on")
-        $(".content .special .l7 ul:nth-child(2) li img").attr("src", "images/l7(2-1).png")
+        $(".content .special .l7 ul:nth-child(2) li img").attr("src", "images/L7(2-1).png")
     })
     $(".content .special .l7 ul:nth-child(3) li:nth-child(2)").click(function(){
         let i = $(this).index()
         $(".content .special .l7 ul:nth-child(3) li").removeClass("on").eq(i).addClass("on")
-        $(".content .special .l7 ul:nth-child(2) li img").attr("src", "images/l7(3-1).png")
+        $(".content .special .l7 ul:nth-child(2) li img").attr("src", "images/L7(3-1).png")
     })
     $(".content .special .l7 ul:nth-child(3) li:nth-child(3)").click(function(){
         let i = $(this).index()
         $(".content .special .l7 ul:nth-child(3) li").removeClass("on").eq(i).addClass("on")
-        $(".content .special .l7 ul:nth-child(2) li img").attr("src", "images/l7(4-1).png")
+        $(".content .special .l7 ul:nth-child(2) li img").attr("src", "images/L7(4-1).png")
     })
 
     $(".content .special .island ul:nth-child(2)").click(function(){
