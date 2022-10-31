@@ -33,7 +33,6 @@ $(document).ready(function () {
     })
 
     $(".content .menu ul li").eq(0).addClass("on")
-
     $(".content .menu ul li").click(function(){
         let i = $(this).index();
         $(".content .menu ul li").removeClass("on").eq(i).addClass("on")
