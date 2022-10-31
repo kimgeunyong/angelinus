@@ -40,21 +40,67 @@ $("document").ready(function(){
         $(".content .menu ul li").removeClass("on").eq(i).addClass("on")
         $(".content .menu-pic ul").removeClass("on")
     })
+
+
+    $(".content .menu-pic .pic:nth-child(1)").addClass("on")
+    // $(".content .menu-pic .menu-txt:nth-child(4)").addClass("on")
+    $(".content .menu .menu-list ul li:nth-child(1)").click(function(){
+        $(".content .menu-pic .pic:nth-child(1)").addClass("on")
+    })
+    $(".content .menu .menu-list ul li:not(:nth-child(1))").click(function(){
+        $(".content .menu-pic .pic:nth-child(1)").removeClass("on")
+    })
+    // 메뉴
+    $(".content .menu .menu-list ul li:nth-child(2)").click(function(){
+        $(".content .menu-pic .pic:nth-child(2)").addClass("on")
+    })
+    $(".content .menu .menu-list ul li:not(:nth-child(2))").click(function(){
+        $(".content .menu-pic .pic:nth-child(2)").removeClass("on")
+    })
+        // 메뉴
+    $(".content .menu .menu-list ul li:nth-child(3)").click(function(){
+        $(".content .menu-pic .pic:nth-child(3)").addClass("on")
+    })
+    $(".content .menu .menu-list ul li:not(:nth-child(3))").click(function(){
+        $(".content .menu-pic .pic:nth-child(3)").removeClass("on")
+    })
+        // 메뉴
+    $(".content .menu .menu-list ul li:nth-child(4)").click(function(){
+        $(".content .menu-pic .pic:nth-child(4)").addClass("on")
+    })
+    $(".content .menu .menu-list ul li:not(:nth-child(4))").click(function(){
+        $(".content .menu-pic .pic:nth-child(4)").removeClass("on")
+    })
+        // 메뉴
+    $(".content .menu .menu-list ul li:nth-child(5)").click(function(){
+        $(".content .menu-pic .pic:nth-child(5)").addClass("on")
+    })
+    $(".content .menu .menu-list ul li:not(:nth-child(5))").click(function(){
+        $(".content .menu-pic .pic:nth-child(5)").removeClass("on")
+    })
+        // 메뉴
+    $(".content .menu .menu-list ul li:nth-child(6)").click(function(){
+        $(".content .menu-pic .pic:nth-child(6)").addClass("on")
+    })
+    $(".content .menu .menu-list ul li:not(:nth-child(6))").click(function(){
+        $(".content .menu-pic .pic:nth-child(6)").removeClass("on")
+    })
     // 메뉴
     // 메뉴
     // 메뉴
 
-    const picSwiper = new Swiper(".pic.swiper",{
+    const pic = new Swiper(".pic",{
         autoplay: {
             delay: 3000
         },
         slidesPerView: 5,
         loop: true,
+        centeredSlide: true
         // pagination:{
         //     el: ".swiper-pagination",
         //     clickable: true
         // }
-    })
+    });
     // 메뉴 스와이퍼
     // 메뉴 스와이퍼
     // 메뉴 스와이퍼
