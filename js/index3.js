@@ -95,7 +95,15 @@ $("document").ready(function(){
         },
         slidesPerView: 5,
         loop: true,
-        centeredSlide: true
+        centeredSlide: true,
+        breakpoints: {
+            0: {
+                slidesPerView: 3
+            },
+            640: {
+                slidesPerView: 5
+            }
+        }
         // pagination:{
         //     el: ".swiper-pagination",
         //     clickable: true
